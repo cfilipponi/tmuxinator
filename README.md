@@ -289,7 +289,7 @@ $ tmuxinator start project workspace=~/workspace/todo
 # ~/.tmuxinator/project.yml
 
 name: project
-root: ~/<%= @settings["workspace"] %>
+root: <%= @settings["workspace"] %>
 
 ...
 ```
